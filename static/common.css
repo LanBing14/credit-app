@@ -1,0 +1,34 @@
+.color666{
+    color: #666;
+}
+.color999{
+    color: #999;
+}
+.color9b9b9b
+{
+    color: #9b9b9b;
+}
+.mt20{
+    margin-top: 20rpx;
+}
+.mt50{
+    margin-top: 50rpx;  
+}
+.flex-s-b{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-s-a-b{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+    
+    
+    

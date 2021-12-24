@@ -1,0 +1,29 @@
+<template>
+    <view>
+        <web-view :src="url + '?hideOther=0'"></web-view>
+    </view>
+</template>
+
+<script>
+
+    export default {
+        data() {
+            return {
+                url:''
+            }
+        },
+        onLoad(options) {
+            this.url = options.url;
+        },
+        mounted() {
+
+        },
+        methods: {
+
+        }
+    }
+</script>
+
+<style>
+
+</style>

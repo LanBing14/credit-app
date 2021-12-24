@@ -1,0 +1,51 @@
+/deep/.uni-scroll-view::-webkit-scrollbar {
+    display: none
+}
+.navTab{
+    white-space: nowrap;
+    height: 73rpx;
+    /*border-bottom: 1rpx solid #eceff7;*/
+    line-height: 73rpx;
+    // position: fixed;
+    // top: var(--window-top);
+    // left: 0;
+    // z-index: 3;
+    background: #fff;
+    width: 100%;
+    box-shadow: 10rpx 0 50rpx rgba(41,44,51,0.07);
+    border-bottom: 1px solid #e5e5e5;
+}
+.navTab .li{
+    display: inline-block;
+    font-size: 28rpx;
+    color: #333;
+    text-align: center;
+    /*width: 170rpx;*/
+    position: relative;
+    // margin-left: 55rpx;
+    min-width: 230rpx;
+}
+// .navTab .li:first-child{
+//     padding-left: 30rpx;
+// }
+// .navTab .li:last-child{
+//     padding-right: 30rpx;
+// }
+.navTab .li.active{
+    color: #113090;
+}
+.navTab .li.active:after{
+    content: '';
+    display: block;
+    width: 36rpx;
+    height: 6rpx;
+    background: #113090;
+    border-radius: 2rpx;
+    position: absolute;
+    bottom: 1rpx;
+    left: 50%;
+    margin-left: -18rpx;
+}
+.navTab .li:first-child{
+    margin-left: 0;
+}

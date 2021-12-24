@@ -1,0 +1,772 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/search/index",
+      "style": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#ffffff",
+        "app-plus": {
+          "scrollIndicator": "none",
+          "titleNView": {
+            "searchInput": {
+              "align": "left",
+              "backgroundColor": "#f6f6f6",
+              "borderRadius": "30rpx",
+              "placeholder": "请输入公司名称",
+              "placeholderColor": "#575757",
+              "disabled": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/message/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "消息中心",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/messageDetail/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "消息中心",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/publish/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "发布",
+        "navigationBarBackgroundColor": "#113090",
+        "app-plus": {
+          "bounce": "none",
+          "titleNView": {
+            "buttons": [
+              {
+                "type": "menu"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/my/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/companyInfo/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/enterpSettle/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "企业入驻",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditCardList/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用名片",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditCardDetail/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用名片",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditCardCerti/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/creditCardCommit/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "企业信用承诺书",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditCardInfo/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "基本信息",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditCardEval/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "企业信用评价",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditCardReport/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "入驻专题报道",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditCardNews/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "新华企业资讯",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditCardHonor/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "荣誉与资质",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditCardVision/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "企业视界",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditCardHistory/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "发展历程",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/companyDetail/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "企业基本信息",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/newsDetail/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/companyCertiShare/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/companyArchList/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/companyArchDetail/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/companyEmpScore/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "用工评分",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/companyRiskWarnList/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/companyRiskWarnDetail/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditBrandPromotion/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "品牌推广",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },{
+      "path": "pages/creditBrandCard/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "品牌名片",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/creditBrandCard/detail",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "品牌名片",
+        "navigationBarBackgroundColor": "#113090"
+        // "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/creditReport/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "关于信用报告",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditReport/apply",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用报告",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditReport/example",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "报告样例",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditInvestigation/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用调研",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditInvestigation/apply",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用调研申请",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditInvestigation/report",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用调研",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditInvestigation/reportDetail",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用调研",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/consultDetail/index",
+      "style":{
+        "navigationBarBackgroundColor": "#507cbe",
+        "navigationStyle":"default"
+      }
+    },
+    {
+      "path": "pages/creditLive/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信锐直播",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditGoods/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信锐优品",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/creditGoods/detail",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信锐优品",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/creditGoods/linkInfo",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信锐优品",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/creditGoods/complaintForm",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "我要投诉",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/creditLive/monitor",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信锐监测",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/creditLive/employ",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信锐收录",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/creditLive/employForm",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "收录申请",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/creditLive/search",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信锐查询",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/anchor/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信锐主播",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/organization/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信锐机构",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/liveRecord/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "直播记录",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/relationAnchor/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "关联主播",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/organization/baseInfo",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "基本信息",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/organization/creditEvaluation",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用评价",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/organization/creditPromise",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用承诺",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/anchor/accountInformation",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "账号表现",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/anchor/workList",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "作品列表",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/consulting/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信锐资讯",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/anchor/workDetail",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "作品详情",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/anchor/record",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "直播记录",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/anchor/goods",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "带货列表",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/anchor/complaintList",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "投诉信息",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/creditInvestigation/applyReport",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "报告申请",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditPark/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用园区",
+        "navigationBarBackgroundColor": "#113090",
+        "onPullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/creditPark/detail",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用园区",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditPark/projectDynamicDetail",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "项目动态",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+	{
+	  "path": "pages/creditPark/apply",
+	  "style": {
+	    "navigationBarTextStyle": "white",
+	    "navigationBarTitleText": "信用园区申请",
+	    "navigationBarBackgroundColor": "#113090"
+	  }
+	},
+    {
+      "path": "pages/creditPark/creditMonitor",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用监测",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/consultList/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "列表",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+	{
+	  "path": "pages/consultDetail/index",
+	  "style": {
+	    "navigationBarTextStyle": "white",
+	    "navigationBarTitleText": "详情",
+	    "navigationBarBackgroundColor": "#113090"
+	  }
+	},
+    {
+      "path": "pages/creditPark/companyList",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用监测",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/redBlackList/index",
+      "style": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#ffffff",
+        "app-plus": {
+          "scrollIndicator": "none",
+          "titleNView": {
+            "searchInput": {
+              "align": "left",
+              "backgroundColor": "#f6f6f6",
+              "borderRadius": "30rpx",
+              "placeholder": "请输入完整企业名称",
+              "placeholderColor": "#575757",
+              "disabled": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/redBlackDetail/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/allService/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "全部服务",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditRepair/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用修复",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditRepair/repairBusIntro",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "业务介绍",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditRepair/repairCourceIntro",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "课程简介",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditRepair/repairSignUp",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "报名申请",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/creditRepair/repairConsult",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "我要咨询",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/companyRoad/index",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用路演",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/companyRoad/detail",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "信用路演",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/my/list",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    },
+    {
+      "path": "pages/my/myCreditCard",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "我的-信用名片",
+        "navigationBarBackgroundColor": "#113090"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#222222",
+    "selectedColor": "#113090",
+    "borderStyle": "#eeeeee",
+    "backgroundColor": "#ffffff",
+    "fontSize": "12px",
+    "spacing": "5px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/08.png",
+        "selectedIconPath": "static/icon/08h.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "iconPath": "static/icon/09.png",
+        "selectedIconPath": "static/icon/09h.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/publish/index",
+        "iconPath": "static/icon/10.png",
+        "selectedIconPath": "static/icon/10h.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/icon/11.png",
+        "selectedIconPath": "static/icon/11h.png",
+        "text": "我的"
+      }
+    ],
+    "midButton": {
+      "text": "",
+      "iconPath": "",
+      "width": "80px",
+      "height": "80px",
+      "backgroundImage": "static/icon/12.png"
+    }
+  },
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
